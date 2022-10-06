@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Assignement_4</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FootballPlayerProject">
+      <HintPath>..\..\..\FootballPlayer Assignement 1\FootballPlayer\bin\Debug\net6.0\FootballPlayerProject.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Assignement_4Tests</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assignement 4\Assignement 4.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FootballPlayerProject">
+      <HintPath>..\..\..\FootballPlayer Assignement 1\FootballPlayer\bin\Debug\net6.0\FootballPlayerProject.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
